@@ -17,9 +17,6 @@
   "files": [
     "lib/",
     "js/",
-    "/android",
-    "!/android/build",
-    "/ios",
     "/*.podspec",
     "harmony"
   ],
@@ -136,15 +133,6 @@
           "project": "tsconfig.build.json"
         }
       ]
-    ]
-  },
-  "codegenConfig": {
-    "libraries": [
-      {
-        "name": "RNCGeolocationSpec",
-        "type": "modules",
-        "jsSrcsDir": "js"
-      }
     ]
   }
 }
